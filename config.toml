@@ -1,0 +1,24 @@
+theme = "lynx"
+title = "Tran Duy Canh, Calvin"
+
+enableEmoji = true
+disableKinds = ["taxonomy", "term"]
+
+[author]
+  name = "Tran Duy Canh, Calvin"
+  headline = "Ingeniero de Datos"
+  image = "author.jpg"
+  links = [
+    { linkedin = "https://www.linkedin.com/in/canhduytran/" },
+    { github = "https://github.com/canhtran" },
+    { email = "mailto: trandcanh@gmail.com" },
+    { youtube = { href = "https://www.youtube.com/c/dataguystory", text = "Data Guy Story" } },
+    { link = { href = "https://www.canhtran.me", text = "canhtran.me", target = "_blank" } }
+  ]
+
+[markup.highlight]
+  noClasses = false
+
+[markup.goldmark]
+[markup.goldmark.renderer]
+  unsafe = true
